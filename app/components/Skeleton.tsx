@@ -1,7 +1,4 @@
-import React from 'react';
-
-const Skeleton = () => {
-  return <div>Skeleton</div>;
-};
+import Skeleton from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
 
 export default Skeleton;
