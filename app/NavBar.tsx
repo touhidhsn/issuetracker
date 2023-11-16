@@ -11,7 +11,7 @@ const NavBar = () => {
 
   const links = [
     { label: 'Dashboard', href: '/' },
-    { label: 'Issues', href: '/issues' },
+    { label: 'Issues', href: '/issues/list' },
   ];
 
   return (
@@ -28,8 +28,7 @@ const NavBar = () => {
               'text-zinc-900': link.href === currentPath,
               'text-zinc-500': link.href !== currentPath,
               'hove: text-zinc-800, transition-colors': true,
-            })}
-          >
+            })}>
             {link.label}
           </Link>
         ))}
