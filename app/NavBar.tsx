@@ -58,11 +58,11 @@ const NavBar = () => {
                     size='2'
                     radius='full'
                     className='curson-pointer'
+                    referrerPolicy='no-referrer'
                   />
                 </DropdownMenu.Trigger>
                 <DropdownMenu.Content>
                   <DropdownMenu.Label>
-                    
                     <Text size='2'>{session.user!.email}</Text>
                   </DropdownMenu.Label>
                   <DropdownMenu.Item>
