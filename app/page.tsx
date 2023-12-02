@@ -12,7 +12,6 @@ export default function Home({
         pageSize={10}
         currentPage={parseInt(searchParams.page)}
       />
-      <div>Hello world</div>
     </>
   );
 }
